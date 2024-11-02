@@ -17,10 +17,10 @@ jobs:
     - uses: actions/checkout@v3
       with:
         submodules: 'recursive'
-    - name: set up JDK 9
+    - name: set up JDK 
       uses: actions/setup-java@v3
       with:
-        java-version: '9'
+        java-version: '8.0.432'
         distribution: 'temurin'
         cache: gradle
 
